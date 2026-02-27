@@ -1,0 +1,102 @@
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: #f5f5f0 !important;
+}
+
+#cactus, #interior, #exterior {
+    background-color: #18281f;
+    color: #ffffff;
+}
+
+#cactus h2, #interior h2, #exterior h2 {
+    color: #ffffff;
+}
+
+.catalogo-scroll {
+    display: flex; /*Pone las tarjetas una al lado de la otra */
+    overflow-x: auto; /* Activa el movimiento hacia la derecha */
+    gap: 20px; /* Espacio entre cada tarjeta */
+    padding: 20px 0;
+}
+
+/* Ocultar la barra de scroll en Chrome y Safari para que se vea más limpio */
+.catalogo-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.tarjeta-plantas {
+    flex: 0 0 280px; 
+    transition: transform 0.3s ease;
+}
+
+.tarjeta-plantas:hover {
+    transform: translateY(-10px);
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.nombre_cientifico {
+    font-style: italic;
+    color: #777;
+    font-size: 0.85rem;
+}
+
+.imagen-nosotros {
+    width: 100%; 
+    height: auto;  
+    border-radius: 15px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); 
+}
+
+#nosotros, #contacto {
+    background-color: #f5f5f0 ; 
+    color: #2d4739;
+}
+
+.btn-success:hover {
+    background-color: #1a2e1a !important; 
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.pie-pagina {
+    background-color: #18281f; 
+    color: #f5f5f0;         
+    padding: 20px 40px;  
+    border-top: 1px solid rgba(245, 245, 240, 0.1);
+}
+
+.icono-redes i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.icono-redes i:hover {
+    color: #94d6a2; 
+}
+
+.carousel-caption {
+    font-size: 175%;
+}
+
+.carousel-caption h5 {
+    font-size: 175%;
+}
