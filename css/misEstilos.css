@@ -100,3 +100,18 @@ body {
 .carousel-caption h5 {
     font-size: 175%;
 }
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 400px; /* Reducimos la altura en móviles */
+        object-fit: cover; /* Mantiene la imagen centrada sin deformarla */
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.5rem; /* Hacemos el título más pequeño para que no tape todo */
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem; /* Ajustamos el texto de abajo */
+    }
+}
