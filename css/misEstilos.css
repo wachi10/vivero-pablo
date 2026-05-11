@@ -115,3 +115,72 @@ body {
         font-size: 0.9rem; /* Ajustamos el texto de abajo */
     }
 }
+
+.fondo-admin{
+    background-color: #f4f4ef;
+}
+
+.panel-admin{
+    background-color: white;
+    border-radius: 25px;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.titulo-admin{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #18281f;
+}
+
+.subtitulo-admin{
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+.input-admin{
+    border-radius: 12px !important;
+    padding: 14px !important;
+}
+
+.boton-admin{
+    background-color: #18281f !important;
+    color: white !important;
+    border-radius: 14px !important;
+    padding: 14px !important;
+    border: none !important;
+    transition: 0.3s;
+}
+
+.boton-admin:hover{
+    background-color: #24382d !important;
+}
+
+/* LOGIN Y REGISTRO */
+
+body{
+    background-color: #f4f4ef;
+}
+
+.login-card,
+.registro-card{
+    max-width: 420px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-verde{
+    background-color: #18281f;
+    color: white;
+    border: none;
+}
+
+.btn-verde:hover{
+    background-color: #24382d;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
